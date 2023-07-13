@@ -64,10 +64,32 @@ Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
-```sh
-cd dillinger
-npm i
-node app
+```
+{
+    "Status": {
+        "Code": 200,
+        "Description": "Request Valid"
+    },
+    "total_data": 36,
+    "restoran": [
+        {
+            "id_resto": "1",
+            "nama_resto": "Restoran Chawan",
+            "deskripsi": "Restoran yang terletak di Makassar dengan berbagai menu yang beragam dengan cita rasa asli",
+            "alamat": "Jl. Karunrung No.1-D, Sawerigading, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90113",
+            "lokasi_maps": "https://goo.gl/maps/SheEwu4ot3KEDPMA9",
+            "no_telpon": "0411-329662",
+            "jam_buka": " 8:30 - 21:00"
+        },
+        {
+            "id_resto": "2",
+            "nama_resto": "Restoran Flamboyan",
+            "deskripsi": "Restoran yang terletak di Makassar dengan berbagai menu yang beragam dengan cita rasa asli",
+            "alamat": "Jl. Cendrawasih No.284, Kp. Buyang, Kec. Mariso, Kota Makassar, Sulawesi Selatan 90121",
+            "lokasi_maps": "https://goo.gl/maps/f6KCwyjtW57u4iYBA",
+            "no_telpon": "0411-853037",
+            "jam_buka": "08:00-22:00"
+        },
 ```
 
 For production environments...
