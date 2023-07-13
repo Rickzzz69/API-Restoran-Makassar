@@ -94,9 +94,12 @@ Install the dependencies and devDependencies and start the server.
 
 For production environments...
 
-```sh
-npm install --production
-NODE_ENV=production node app
+```{
+    "Status": {
+        "Code": 400,
+        "Description": "Request Not Valid"
+    }
+}
 ```
 
 ## Plugins
